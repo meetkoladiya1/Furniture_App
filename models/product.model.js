@@ -10,7 +10,7 @@ const productSchema = mongoose.Schema({
     price: Number,
     profile: String,
     category:[{
-        typeof: String
+        type: String
     }],
     isDelete:{
         type: Boolean,

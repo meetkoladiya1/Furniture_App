@@ -5,7 +5,7 @@ const userSchema = mongoose.Schema({
         type: String
     },
     email:{
-        type:String,
+        type: String,
         unique:true,
         required:true
     },
@@ -16,7 +16,7 @@ const userSchema = mongoose.Schema({
         type:String
     },
     phoneNo:{
-        type:string
+        type:String
     },
     isDelete:{
         type: Boolean,
